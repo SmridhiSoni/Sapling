@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->
+<title>Saplings:Gallery</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="shortcut icon" href="p1.jpg" type="image/x-icon">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+      padding: 20px;
+      color: green;
+      font-size: 1.9rem;
+      text-decoration: none;
+	  text-align: center;
+    }
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+  <a href="website.html" class="logo"><i class="fab fa-pagelines"></i>Saplings</a>
+  <h1>Image Grid</h1>
+  <p>Click on the buttons to change the grid view.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">3</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="slide5.JPEG" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AZnAl-Rex_5KCRhmG9swLEDXjURuZmOr3g&usqp=CAU" style="width:100%">
+    <img src="https://deserthorizonnursery.com/wp-content/uploads/2017/02/Cameron-Blue-Agave-Agave-Potatorum-Cameron-Blue-desert-horizon-nursery.jpg" style="width:100%">
+    <img src="https://cdn.shopify.com/s/files/1/0284/2450/products/Grusonii_Albispina_1_800x.jpg?v=1569482816" style="width:100%">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81kJL5W0VcL._SL1500_.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/d5/a2/33/d5a233338ef1141b542572b8ebfdb2a5.jpg" style="width:100%">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/9128zCnk--L._SX522_.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnJ5ndDQnlU2rOtBUkJIuPwVrUK_ronz0WGw&usqp=CAU" style="width:100%">
+    <img src="https://3.imimg.com/data3/HT/CK/MY-6737683/dgdgd-500x500.jpg" style="width:100%">
+    <img src="https://www.bonsaitreegardener.net/wp-content/uploads/2015/04/fukien-tea-bonsai-tree.jpg" style="width:100%">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51PuNsFzgSL.jpg" style="width:100%">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51ShyjfiU6L.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://i.etsystatic.com/13841971/r/il/82f9c5/1652787398/il_570xN.1652787398_e2oq.jpg" style="width:100%">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/9128zCnk--L._SX522_.jpg" style="width:100%">
+    <img src="https://cdn.shopify.com/s/files/1/0284/2450/products/Juiper-1-1_500x.jpg?v=1614181988" style="width:100%">
+    <img src="https://www.bonsaitreegardener.net/wp-content/uploads/2015/04/fukien-tea-bonsai-tree.jpg" style="width:100%">
+    <img src="https://www.plantsguru.com/image/cache/data/Flowering%20Plants/Adenium/plantsguru-flowering-plants-adenium-white-double-800x800.jpg" style="width:100%">
+    <img src="https://cdn.shopify.com/s/files/1/0284/2450/products/Juniper-4-1_500x.jpg?v=1614181988" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnJ5ndDQnlU2rOtBUkJIuPwVrUK_ronz0WGw&usqp=CAU" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.shopify.com/s/files/1/0284/2450/products/Agave_Celsii_Multicolour_2_500x.jpg?v=1569193704" style="width:100%">
+    <img src="https://i.pinimg.com/236x/5b/c2/b1/5bc2b1f085eeb93cb9e0ac81c0185cf0.jpg" style="width:100%">
+    <img src="https://cdn.shopify.com/s/files/1/0284/2450/products/Agave_Celsii_Multicolour_1_500x.jpg?v=1569193704" style="width:100%">
+    <img src="https://cdn.shopify.com/s/files/1/0284/2450/products/Juniper-4-1_500x.jpg?v=1614181988" style="width:100%">
+    <img src="https://cdn.shopify.com/s/files/1/0284/2450/products/Juiper-1-1_500x.jpg?v=1614181988" style="width:100%">
+    <img src="https://i.pinimg.com/236x/5b/c2/b1/5bc2b1f085eeb93cb9e0ac81c0185cf0.jpg" style="width:100%">
+  </div>
+</div>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saplings-Online Nursery</title>
+
+    <!-- owl carousel css file cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="website.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="p1.jpg" type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+	
+	
+	<!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- owl carousel js file cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom js file link  -->
+    <script src="website.js"></script>
+</head>
+<body>
+
+<!-- header section starts  -->
+<header>
+<div class="fixed">
+<div class="header-1">
+    
+    <a href="#" class="logo"><i class="fab fa-pagelines"></i>Saplings</a>
+	
+
+    <div class="form-container">
+        <form action="">
+            <input type="search" style="width:600px;" placeholder="search products" id="search" /> 
+            <label for="search" class="fas fa-search"></label>
+        </form>
+    </div>
+	
+  <div class="icons">
+        <a href="createacc.html" class="fas fa-user">Login/Sign Up</a>
+    </div>
+	
+</div>
+
+<div class="header-2">
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="website.html">Home</a></li>
+            <li><a href="#bottom">About Us</a></li>
+			<li><a href="#sale">Items on Sale</a></li>
+		    <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="faq.html">FAQs</a></li>
+        </ul>
+    </nav>
+
+
+</div>
+</div>
+</header>
+
+<!--header section ends-->
+<!--home section starts-->
+<!--image slider starts-->
+<div class="container-fluid p-0">
+    <div id="carousel" class="carousel slide hero-slides" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel" data-slide-to="0"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active boat">
+          <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft"><b>More plants means more happiness...</b></h2>
+                  <p class="animated fadeInRight">The glory of gardening: hands in the dirt, head in the sun, heart with nature. To nurture a garden is to feed not just the body, but the soul.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item sea">
+          <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft"><b>More plants means more peace...</b></h2>
+                  <p class="animated fadeInRight">I grow plants for many reasons: to please my eye or to please my soul, to challenge the elements or to challenge my patience, for novelty or for nostalgia, but mostly for the joy in seeing them grow.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item river">
+          <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft"><b>More plants means more joy...</b></h2>
+                  <p class="animated fadeInRight">If you’ve never experienced the joy of accomplishing more than you can imagine, plant a garden</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"></script>
+<!--image slider ends-->
+<!--home section ends-->
+<main>
+<section class="grid1">
+  
+  <div class="img1"></div>
+  
+  <div class="img2"></div>
+  
+  <div class="img3"></div>
+  
+  <div class="strapline">
+    <blockquote>Cactus is a member of the plant family Cactaceae.They live in extremely dry environments and show many adaptations to conserve water.</blockquote>
+  </div>
+  
+    <div class="cta-wrapper">  
+      <div class="cta">
+        <h1>Cactus</h1>
+        <p style="font-size:12px"> Cacti are used for human food and as fodder for animals, usually after burning off their spines.In addition to their use as psychoactive agents, some cacti are employed in herbal medicine</p>
+        <a class="button" href="cactusmain.html">View Product Details →</a>
+    </div>
+  </div>
+  
+</section>
+
+<section class="grid1">
+  
+  <div class="img4"></div>
+  
+  <div class="img5"></div>
+  
+  <div class="img6"></div>
+  
+  <div class="strapline">
+    <blockquote>Flowers don’t worry about how they’re going to bloom. They just open up and turn toward the light and that makes them beautiful.”</blockquote>
+  </div>
+  
+    <div class="cta-wrapper">  
+      <div class="cta">
+        <h1>Flowers</h1>
+        <p style="font-size:12px">Many flowers have important symbolic meanings in Western culture.The practice of assigning meanings to flowers is known as floriography.</p>
+        <a class="button" href="floweringmain.html">View Product Details →</a>
+    </div>
+  </div>
+  
+</section>
+
+<div class="container">
+<br><br><br><br>
+    <h3 style="font-size:34px;text-align:center;font-family: Yellowtail;"><a name="sale">Items on Sale</a></h3><br><br>
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="https://cdn.shopify.com/s/files/1/0284/2450/products/Hoya-carnosa-Wax-Plant2_500x.jpg?v=1569066355">
+                        <img class="pic-2" src="https://cdn.shopify.com/s/files/1/0284/2450/products/HoyaCarnosa1_500x.jpg?v=1592046519">
+                    </a>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="vndcreHoyaCarnosa.html">Hoya Carnosa</a></h3>
+                    <div class="price">800.00
+                        <span>1600.00</span>
+                    </div>
+                    <a class="add-to-cart" href="vndcreHoyaCarnosa.html">View more Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="https://cdn.shopify.com/s/files/1/0284/2450/products/Agave_Potatorum_Cameron_Blue_1_21fa8a1d-ba14-44f3-8e74-76418ea9710c_500x.jpg?v=1569193699">
+                        <img class="pic-2" src="https://cdn.shopify.com/s/files/1/0284/2450/products/Agave_potatorum_Cameron_Blue_500x.JPG?v=1569178231">
+                    </a>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="cactusAgaveCelsiiMulticolour.html">Agave Celsii 'Multicolour'</a></h3>
+                    <div class="price">210.00
+                        <span>420.00</span>
+                    </div>
+                    <a class="add-to-cart" href="cactusAgaveCelsiiMulticolour.html">View more Details</a>
+                </div>
+            </div>
+        </div>
+		 <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="https://cdn.shopify.com/s/files/1/0284/2450/products/Juiper-1-1_500x.jpg?v=1614181988">
+                        <img class="pic-2" src="https://cdn.shopify.com/s/files/1/0284/2450/products/Juniper-4-1_500x.jpg?v=1614181988">
+                    </a>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="bonsaiBonsaiTigerBark.html">Bonsai TigerBark</a></h3>
+                    <div class="price">210.00
+                        <span>420.00</span>
+                    </div>
+                    <a class="add-to-cart" href="bonsaiBonsaiTigerBark.html">View more Details</a>
+                </div>
+            </div>
+        </div>
+		 <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="https://cdn.shopify.com/s/files/1/0284/2450/products/Agave_Celsii_Multicolour_2_500x.jpg?v=1569193704">
+                        <img class="pic-2" src="https://cdn.shopify.com/s/files/1/0284/2450/products/Agave_Celsii_Multicolour_1_500x.jpg?v=1569193704">
+                    </a>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="cactusAgaveJoeHoak.html">Agave 'Joe Hoak'</a></h3>
+                    <div class="price">890.00
+                        <span>1780.00</span>
+                    </div>
+                    <a class="add-to-cart" href="cactusAgaveJoeHoak.html">View more Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<section class="grid1">
+  
+  <div class="img7"></div>
+  
+  <div class="img8"></div>
+  
+  <div class="img9"></div>
+  
+  <div class="strapline">
+    <blockquote>A bonsai is a microcosm containing within it, unchanged in everything but size, the mystery of the universe.</blockquote>
+  </div>
+  
+    <div class="cta-wrapper">  
+      <div class="cta">
+        <h1>Bonsai</h1>
+        <p style="font-size:12px">Bonsai are the aesthetic goals characterizing the Japanese tradition of growing an artistically shaped miniature tree in a container</p>
+        <a class="button" href="bonsaimain.html">View Product Details →</a>
+    </div>
+  </div>
+  
+</section>
+
+<section class="grid1">
+  
+  <div class="img10"></div>
+  
+  <div class="img11"></div>
+  
+  <div class="img12"></div>
+  
+  <div class="strapline">
+    <blockquote>Orchids were not made by an ideal engineer; they are jury-rigged from a limited set of available components.</blockquote>
+  </div>
+  
+    <div class="cta-wrapper">  
+      <div class="cta">
+        <h1>Orchids</h1>
+        <p style="font-size:12px">The Orchids are a diverse and widespread family of flowering plants, with blooms that are often colourful and fragrant, commonly known as the orchid family.</p>
+        <a class="button" href="orchidsmain.html">View Product Details →</a>
+    </div>
+  </div>
+  
+</section>
+<br><br><br><br>
+
+
+<div class="wrapper">
+  <h1></h1>
+  <div class="cols">
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div class="front" style="background-image: url(https://i.pinimg.com/236x/5b/c2/b1/5bc2b1f085eeb93cb9e0ac81c0185cf0.jpg)">
+            <div class="inner">
+              <p>Orchids</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p>Orchids were not made by an ideal engineer; they are jury-rigged from a limited set of available components.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div class="front" style="url(https://i.pinimg.com/236x/57/1b/4d/571b4d0984edbc551e5c22dd175a75fe.jpg)">
+            <div class="inner">
+              <p>Bonsai</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p>A bonsai is a microcosm containing within it, unchanged in everything but size, the mystery of the universe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div class="front" style="background-image: url(https://i.pinimg.com/564x/c7/80/4f/c7804fc1d8c88e040ea41715a77f7b85.jpg)">
+            <div class="inner">
+              <p>Adenium</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p>Adeniums are appreciated for their colorful flowers, but also for their unusual, thick caudices. They can be grown for many years in a pot and are commonly used for bonsai.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
+ <br><br><br>
+ 
+ <section class="grid1">
+  
+  <div class="img13"></div>
+  
+  <div class="img14"></div>
+  
+  <div class="img15"></div>
+  
+  <div class="strapline">
+    <blockquote>Adeniums are appreciated for their colorful flowers, but also for their unusual, thick caudices. They can be grown for many years in a pot and are commonly used for bonsai.</blockquote>
+  </div>
+  
+    <div class="cta-wrapper">  
+      <div class="cta">
+        <h1>Adenium</h1>
+        <p style="font-size:12px">Adenium obesum is grown as a houseplant in temperate regions. Numerous hybrids have been developed. Adeniums are appreciated for their colorful flowers, but also for their unusual, thick caudices.</p>
+        <a class="button" href="adeniummain.html">View Product Details →</a>
+    </div>
+  </div>
+  
+</section>
+ <br><br><br>
+<section class="grid1">
+  
+  <div class="img16"></div>
+  
+  <div class="img17"></div>
+  
+  <div class="img18"></div>
+  
+  <div class="strapline">
+    <blockquote>Succulents are favored as houseplants for their attractiveness and ease of care. If properly potted, succulents require little maintenance to survive indoors.</blockquote>
+  </div>
+  
+    <div class="cta-wrapper">  
+      <div class="cta">
+        <h1>Succelents</h1>
+        <p style="font-size:12px">In botany, succulent plants, also known as succulents, are plants with parts that are thickened, fleshy, and engorged, usually to retain water in arid climates or soil conditions</p>
+        <a class="button" href="succulentsmain.html">View Product Details →</a>
+    </div>
+  </div>
+  
+</section>
+<br><br><br>
+
+<div class="wrapper">
+   <h3 style="font-size:34px;text-align:center;font-family: Yellowtail;">Also Shop</h3><br><br>
+  <div class="cols">
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div class="front" style="background-image: url(https://i.pinimg.com/236x/5b/c2/b1/5bc2b1f085eeb93cb9e0ac81c0185cf0.jpg)">
+            <div class="inner">
+              <p>Indoor Plants</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p><a href="indoorplantsmain.html">Shop Now!!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div class="front" style="background-image: url(https://i.pinimg.com/564x/c7/80/4f/c7804fc1d8c88e040ea41715a77f7b85.jpg)">
+            <div class="inner">
+              <p>Vines and Creepers</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p><a href="vinesandcreepersmain.html">Shop Now!!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
+ <br><br><br><br>
+ <div>
+     <p style="text-align:center;font-size:34px;">Youtube Videoes</p>
+     <center> <iframe width="1160" height="545" src="https://www.youtube.com/embed/LZhnCxG5c6s" title="YouTube video player"
+	  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	  allowfullscreen></iframe></center>
+ </div>
+ <br><br><br>
+<!-- </main> -->
+<!--footer section starts-->
+<footer>
+        <div class="about">
+            <p style="font: size 20px;"><a name="bottom"><b>ABOUT SAPLINGS</b></a></p>
+            <br>
+            <p><b>Saplings </b> is a platform for Urban India to stay close to nature. Every city turning into a
+                concrete jungle now, Go Green offers unique solutions for every person with beautiful plants, pots 
+				& decorative knick-knacks to create your green patch. We strive to be the perfect Urban solution with
+				our unique products developed keeping you in mind.</p>
+
+            <!--social icons-->
+			<br>
+            <p class="details">For more information contact us: </p>
+            <br><br><br>
+            <div class="social-link-footer">
+                <!--social links-->
+                <div class="social-footer">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <!--phone number-->
+                    <br>
+                    <div class="phone-footer">
+                        <span>Call us at: +12345</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seconddiv">
+            <p style="font-size: 18px;"><b>QUICK LINKS</b></p><br><br>
+            <ul>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <br>
+                <li><a href="faq.html">FAQ</a></li>
+                <br>
+                <li><a href="gallery.html">Gallery</a></li>
+                <br>
+                <li><a href="#sale">Items On Sale</a></li>
+                <br><br><br>
+                <!--payment icons-->
+				
+                <p style="font-size: 18px;">We accept</p>
+                <div class="payment">
+                    <a href="#"><i class="fab fa-amazon-pay"></i></a>
+                    <a href="#"><i class="fab fa-google-pay"></i></a>
+                    <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                    <a href="#"><i class="fab fa-cc-amex"></i></a>
+                    <a href="#"><i class="fab fa-cc-apple-pay"></i></a>
+                    <a href="#"><i class="fab fa-cc-paypal"></i></a>
+                </div>
+
+            </ul>
+        </div>
+		
+		<div class="thirddiv">
+		    <p style="font-size: 18px;"><b>Newsletter</b></p>
+			<br><br>
+			<p style="font-size: 15px;">Subscribe to our Newsletter to get the latest updates on new products and offers!</p>
+			<br><br>
+			<input type="email" id="email" name="email" placeholder="Your email"> 
+			<br>
+			<button type="submit">Subscribe</button>
+		</div>
+    </footer>
+<!--footer section ends-->	
+</body>
+</html>
